@@ -94,7 +94,7 @@ if [ -z ${SED_STRING} ]; then
   SED_STRING="s/packetbeat-/packetbeat-/g;s/filebeat-/filebeat-/g;s/topbeat-/topbeat-/g;s/winlogonbeat-/winlogonbeat-/g"
 fi
 
-DIR=dashboards
+DIR=backup
 echo "Loading dashboards to ${ELASTICSEARCH} in ${KIBANA_INDEX}"
 
 # Workaround for: https://github.com/elastic/beats-dashboards/issues/94
