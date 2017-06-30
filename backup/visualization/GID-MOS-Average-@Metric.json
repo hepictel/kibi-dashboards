@@ -1,0 +1,10 @@
+{
+  "visState": "{\"title\":\"GID MOS Average @Metric\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":\"42\"},\"aggs\":[{\"id\":\"1\",\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"value\",\"customLabel\":\"Avg. MOS\"}}],\"listeners\":{}}", 
+  "description": "", 
+  "title": "GID MOS Average @Metric", 
+  "uiStateJSON": "{}", 
+  "version": 1, 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"index\":\"pcapture_*-*\",\"query\":{\"query_string\":{\"query\":\"_type:metrics_calls_total_mos AND tab:mos\",\"analyze_wildcard\":true}},\"filter\":[]}"
+  }
+}

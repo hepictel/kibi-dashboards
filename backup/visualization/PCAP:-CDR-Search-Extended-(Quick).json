@@ -1,0 +1,11 @@
+{
+  "visState": "{\"title\":\"PCAP: CDR Search Extended (Quick)\",\"type\":\"kibi-data-table\",\"params\":{\"clickOptions\":[{\"columnField\":\"callid\",\"targetDashboardId\":\"PCAP:-Traffic-Breakdowns\",\"type\":\"select\"}],\"columns\":[\"callid\",\"from_user\",\"to_user\",\"status_text\",\"duration\"],\"queryDefinitions\":[]},\"aggs\":[],\"listeners\":{},\"version\":2}", 
+  "description": "", 
+  "title": "PCAP: CDR Search Extended (Quick)", 
+  "uiStateJSON": "{}", 
+  "version": 1, 
+  "savedSearchId": "PCAP-CDRs", 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"filter\":[]}"
+  }
+}

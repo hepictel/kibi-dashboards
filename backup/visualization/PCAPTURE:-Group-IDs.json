@@ -1,0 +1,10 @@
+{
+  "visState": "{\"title\":\"PCAPTURE: Group IDs\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"gid.raw\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Group ID\"}}],\"listeners\":{}}", 
+  "description": "", 
+  "title": "PCAPTURE: Group IDs", 
+  "uiStateJSON": "{}", 
+  "version": 1, 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"index\":\"pcapture_*-*\",\"query\":{\"query_string\":{\"query\":\"gid.raw:*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+  }
+}

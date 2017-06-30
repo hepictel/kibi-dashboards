@@ -1,0 +1,11 @@
+{
+  "visState": "{\"title\":\"PCAP2: Top CALLER by CDR Cost\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"d_total_cost\",\"customLabel\":\"Total Cost\"}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"from_user.raw\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"FROM User\"}},{\"id\":\"3\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Number of Calls\"}},{\"id\":\"4\",\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"duration\",\"customLabel\":\"Total Airtime\"}}],\"listeners\":{}}", 
+  "description": "", 
+  "title": "PCAP2: Top CALLER by CDR Cost", 
+  "uiStateJSON": "{}", 
+  "version": 1, 
+  "savedSearchId": "PCAP-CDRs", 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"filter\":[]}"
+  }
+}

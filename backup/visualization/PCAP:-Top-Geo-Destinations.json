@@ -1,0 +1,11 @@
+{
+  "visState": "{\"title\":\"PCAP: Top Geo Destinations\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"geo_cc.raw\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Top Geo Destinations\"}}],\"listeners\":{}}", 
+  "description": "", 
+  "title": "PCAP: Top Geo Destinations", 
+  "uiStateJSON": "{}", 
+  "version": 1, 
+  "savedSearchId": "PCAP-CDRs", 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"filter\":[]}"
+  }
+}

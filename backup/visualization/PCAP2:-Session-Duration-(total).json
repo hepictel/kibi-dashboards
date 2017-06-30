@@ -1,0 +1,11 @@
+{
+  "visState": "{\"title\":\"PCAP2: Session Duration (total)\",\"type\":\"metric\",\"params\":{\"fontSize\":\"32\",\"handleNoResults\":true},\"aggs\":[{\"id\":\"1\",\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"duration\",\"customLabel\":\"Duration (seconds)\"}}],\"listeners\":{}}", 
+  "description": "", 
+  "title": "PCAP2: Session Duration (total)", 
+  "uiStateJSON": "{}", 
+  "version": 1, 
+  "savedSearchId": "PCAP-CDRs", 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"filter\":[]}"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "visState": "{\"title\":\"PCAP2: Avg. MOS Metric\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":\"34\"},\"aggs\":[{\"id\":\"1\",\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"mos\",\"customLabel\":\"Avg. MOS\"}}],\"listeners\":{}}", 
+  "description": "", 
+  "title": "PCAP2: Avg. MOS Metric", 
+  "uiStateJSON": "{}", 
+  "version": 1, 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"index\":\"pcapture_cdr_*-*\",\"query\":{\"query_string\":{\"query\":\"_type:cdr AND ( mos:>0)\",\"analyze_wildcard\":true}},\"filter\":[]}"
+  }
+}

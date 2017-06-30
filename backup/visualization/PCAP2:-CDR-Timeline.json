@@ -1,0 +1,10 @@
+{
+  "visState": "{\"title\":\"PCAP2: CDR Timeline\",\"type\":\"kibi_timeline\",\"params\":{\"groups\":[{\"id\":5000,\"groupLabel\":\"PCAP-CDRs\",\"color\":\"#6f87d8\",\"endField\":\"cdr_stop\",\"labelField\":\"status_text\",\"startField\":\"cdr_start\",\"savedSearchId\":\"PCAP-CDRs\",\"indexPatternId\":\"pcapture_cdr_*-*\",\"size\":\"100\"}],\"groupsOnSeparateLevels\":false},\"aggs\":[],\"listeners\":{}}", 
+  "description": "", 
+  "title": "PCAP2: CDR Timeline", 
+  "uiStateJSON": "{}", 
+  "version": 1, 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+  }
+}

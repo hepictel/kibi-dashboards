@@ -1,0 +1,17 @@
+{
+  "hits": 0, 
+  "timeFrom": "now/d", 
+  "timeRestore": true, 
+  "description": "", 
+  "title": "BHCA", 
+  "uiStateJSON": "{\"P-10\":{\"vis\":{\"legendOpen\":false},\"spy\":{\"mode\":{\"name\":null,\"fill\":false}}}}", 
+  "panelsJSON": "[{\"col\":1,\"id\":\"GID:-Groups-in-Scope\",\"panelIndex\":5,\"row\":1,\"size_x\":2,\"size_y\":3,\"type\":\"visualization\"},{\"col\":3,\"id\":\"GID-BHCA-by-@Type\",\"panelIndex\":10,\"row\":4,\"size_x\":10,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"GID-MOS-Average-@Metric\",\"panelIndex\":12,\"row\":4,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},{\"id\":\"GID-Avg.-Call-Duration-(Counter)\",\"type\":\"visualization\",\"panelIndex\":13,\"size_x\":2,\"size_y\":2,\"col\":1,\"row\":6},{\"id\":\"TIMELION:-Avg.-Mos-@Time\",\"type\":\"visualization\",\"panelIndex\":15,\"size_x\":10,\"size_y\":3,\"col\":3,\"row\":1}]", 
+  "timeTo": "now", 
+  "optionsJSON": "{\"darkTheme\":false}", 
+  "version": 1, 
+  "savedSearchId": "PCAP-Stats", 
+  "timeMode": "quick", 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}}}]}"
+  }
+}

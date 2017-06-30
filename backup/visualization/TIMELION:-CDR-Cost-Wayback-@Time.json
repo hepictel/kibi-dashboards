@@ -1,0 +1,10 @@
+{
+  "visState": "{\"title\":\"TIMELION: CDR Cost Wayback @Time\",\"type\":\"timelion\",\"params\":{\"expression\":\"(.es(_type:cdr,timefield=@timestamp,index=pcapture_*-*,metric=avg:d_total_cost).label('Current Avg'), .es(_type:cdr,timefield=@timestamp,index=pcapture_*-*,metric=avg:d_total_cost,offset=-1d).label('Yesterday Avg'), .es(_type:cdr,timefield=@timestamp,index=pcapture_*-*,metric=avg:d_total_cost,offset=-1w).label('Last Week Avg'),.es(_type:cdr,timefield=@timestamp,index=pcapture_*-*,metric=max:d_total_cost).label('Current Max'), .es(_type:cdr,timefield=@timestamp,index=pcapture_*-*,metric=max:d_total_cost,offset=-1d).label('Yesterday Max'), .es(_type:cdr,timefield=@timestamp,index=pcapture_*-*,metric=max:d_total_cost,offset=-1w).label('Last Week Max') ).title('CDR COST Comparison')\",\"interval\":\"auto\"},\"aggs\":[],\"listeners\":{}}", 
+  "description": "", 
+  "title": "TIMELION: CDR Cost Wayback @Time", 
+  "uiStateJSON": "{}", 
+  "version": 1, 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+  }
+}

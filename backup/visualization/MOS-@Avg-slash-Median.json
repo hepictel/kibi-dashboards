@@ -1,0 +1,10 @@
+{
+  "visState": "{\"type\":\"metric\",\"params\":{\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"value\"}},{\"id\":\"2\",\"type\":\"median\",\"schema\":\"metric\",\"params\":{\"field\":\"value\",\"percents\":[50]}}],\"listeners\":{},\"title\":\"MOS @Avg/Median\"}", 
+  "description": "", 
+  "title": "MOS @Avg/Median", 
+  "uiStateJSON": "{}", 
+  "version": 1, 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"index\":\"pcapture_*-*\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"_type:metrics_calls_total_mos\"}},\"filter\":[]}"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "visState": "{\"title\":\"GID Med. Call Duration (Counter)\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":\"32\"},\"aggs\":[{\"id\":\"1\",\"type\":\"median\",\"schema\":\"metric\",\"params\":{\"field\":\"value\",\"percents\":[50],\"customLabel\":\"Median Call Duration (sec)\"}}],\"listeners\":{}}", 
+  "description": "", 
+  "title": "GID Med. Call Duration (Counter)", 
+  "uiStateJSON": "{}", 
+  "version": 1, 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"index\":\"pcapture_*-*\",\"query\":{\"query_string\":{\"query\":\"_type:metrics_calls_total_duration\",\"analyze_wildcard\":true}},\"filter\":[]}"
+  }
+}

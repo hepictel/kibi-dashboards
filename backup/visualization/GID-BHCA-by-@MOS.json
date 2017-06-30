@@ -1,0 +1,10 @@
+{
+  "visState": "{\"title\":\"GID BHCA by @MOS\",\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"scale\":\"linear\",\"mode\":\"grouped\",\"times\":[],\"addTimeMarker\":true,\"defaultYExtents\":false,\"setYExtents\":true,\"yAxis\":{\"max\":5,\"min\":0}},\"aggs\":[{\"id\":\"1\",\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"value\",\"customLabel\":\"MOS Avg\"}},{\"id\":\"2\",\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"h\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Time\"}},{\"id\":\"3\",\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"group.raw\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Group\"}}],\"listeners\":{}}", 
+  "description": "", 
+  "title": "GID BHCA by @MOS", 
+  "uiStateJSON": "{\"spy\":{\"mode\":{\"name\":\"table\",\"fill\":false}},\"vis\":{\"colors\":{\"default\":\"#508642\",\"bos-z16-call5\":\"#64B0C8\"}}}", 
+  "version": 1, 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"index\":\"pcapture_*-*\",\"query\":{\"query_string\":{\"query\":\"_type:metrics_calls_total_mos AND tab:mos\",\"analyze_wildcard\":true}},\"filter\":[]}"
+  }
+}

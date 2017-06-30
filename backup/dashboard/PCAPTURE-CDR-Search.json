@@ -1,0 +1,14 @@
+{
+  "hits": 0, 
+  "timeRestore": false, 
+  "description": "", 
+  "title": "PCAPTURE CDR Search", 
+  "uiStateJSON": "{\"P-2\":{\"vis\":{\"legendOpen\":false}}}", 
+  "panelsJSON": "[{\"col\":1,\"id\":\"PCAP:-CDR-Count\",\"panelIndex\":2,\"row\":1,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},{\"col\":3,\"id\":\"PCAP:-CDR-Search-Extended\",\"panelIndex\":7,\"row\":3,\"size_x\":10,\"size_y\":5,\"type\":\"visualization\"},{\"col\":7,\"id\":\"PCAP2:-Session-Status\",\"panelIndex\":8,\"row\":1,\"size_x\":6,\"size_y\":2,\"type\":\"visualization\"},{\"col\":3,\"id\":\"PCAP2:-CDR-Cost-Metrics\",\"panelIndex\":9,\"row\":1,\"size_x\":4,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"PCAP2:-Session-Status-Filter\",\"panelIndex\":10,\"row\":3,\"size_x\":2,\"size_y\":5,\"type\":\"visualization\"}]", 
+  "optionsJSON": "{\"darkTheme\":false}", 
+  "version": 1, 
+  "savedSearchId": "PCAP-CDRs", 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+  }
+}

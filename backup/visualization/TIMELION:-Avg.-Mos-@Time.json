@@ -1,0 +1,10 @@
+{
+  "visState": "{\"title\":\"TIMELION: Avg. Mos @Time\",\"type\":\"timelion\",\"params\":{\"expression\":\"(.es(_type:metrics_calls_total_mos,timefield=@timestamp,index=pcapture_*-*,metric=avg:value).label('Current'), .es(_type:metrics_calls_total_mos,timefield=@timestamp,index=pcapture_*-*,metric=avg:value,offset=-1d).label('Yesterday'), .es(_type:metrics_calls_total_mos,timefield=@timestamp,index=pcapture_*-*,metric=avg:value,offset=-1w).label('Last Week') ).title('MOS Wayback Machine')\",\"interval\":\"15m\"},\"aggs\":[],\"listeners\":{}}", 
+  "description": "", 
+  "title": "TIMELION: Avg. Mos @Time", 
+  "uiStateJSON": "{}", 
+  "version": 1, 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+  }
+}

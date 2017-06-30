@@ -1,0 +1,10 @@
+{
+  "visState": "{\"title\":\"PCAP2: MOS Avg. Bars\",\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"scale\":\"linear\",\"mode\":\"grouped\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"yAxis\":{}},\"aggs\":[{\"id\":\"1\",\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"mos_a\",\"customLabel\":\"MOS A-Leg\"}},{\"id\":\"2\",\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"mos_b\",\"customLabel\":\"MOS B-Leg\"}}],\"listeners\":{}}", 
+  "description": "", 
+  "title": "PCAP2: MOS Avg. Bars", 
+  "uiStateJSON": "{\"spy\":{\"mode\":{\"name\":null,\"fill\":false}}}", 
+  "version": 1, 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"filter\":[],\"index\":\"pcapture_cdr_*-*\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"require_field_match\":false,\"fragment_size\":2147483647},\"query\":{\"query_string\":{\"query\":\"_type:cdr AND ( mos_a:>0 OR mos_b:>0)\",\"analyze_wildcard\":true}}}"
+  }
+}

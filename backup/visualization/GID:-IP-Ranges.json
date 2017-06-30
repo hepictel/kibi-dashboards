@@ -1,0 +1,10 @@
+{
+  "visState": "{\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":false,\"scale\":\"linear\",\"mode\":\"grouped\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":true,\"setYExtents\":false,\"yAxis\":{}},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"ip_range\",\"schema\":\"segment\",\"params\":{\"field\":\"ip\",\"ipRangeType\":\"fromTo\",\"ranges\":{\"fromTo\":[{\"from\":\"0.0.0.0\",\"to\":\"0.0.0.1\"},{\"from\":\"11.0.0.0\",\"to\":\"192.167.255.255\"},{\"from\":\"10.0.0.0\",\"to\":\"10.255.255.255\"},{\"from\":\"192.168.0.0\",\"to\":\"192.168.255.255\"}],\"mask\":[{\"mask\":\"0.0.0.0/1\"},{\"mask\":\"10.0.0.0/2\"}]},\"json\":\"\"}}],\"listeners\":{},\"title\":\"GID: IP Ranges\"}", 
+  "description": "", 
+  "title": "GID: IP Ranges", 
+  "uiStateJSON": "{}", 
+  "version": 1, 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"index\":\"pcapture_*-*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+  }
+}

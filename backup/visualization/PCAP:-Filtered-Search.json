@@ -1,0 +1,10 @@
+{
+  "visState": "{\"title\":\"PCAP: Filtered Search\",\"type\":\"kibi_sequential_join_vis\",\"params\":{\"buttons\":[{\"label\":\"Search Using Filters\",\"indexRelationId\":\"pcapture_*-*/cdr/uuid.raw/pcapture_*-*/cdr/uuid.raw\",\"targetDashboardId\":\"PCAPTURE-CDR-Search\",\"sourceDashboardId\":\"\"}]},\"aggs\":[],\"listeners\":{},\"version\":2}", 
+  "description": "", 
+  "title": "PCAP: Filtered Search", 
+  "uiStateJSON": "{}", 
+  "version": 1, 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+  }
+}

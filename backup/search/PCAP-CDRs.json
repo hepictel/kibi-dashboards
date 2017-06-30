@@ -1,0 +1,23 @@
+{
+  "sort": [
+    "@timestamp", 
+    "desc"
+  ], 
+  "hits": 0, 
+  "description": "", 
+  "title": "PCAP CDRs", 
+  "version": 1, 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"index\":\"pcapture_cdr_*-*\",\"filter\":[],\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"require_field_match\":false,\"fragment_size\":2147483647},\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"_type:cdr\"}}}"
+  }, 
+  "columns": [
+    "callid", 
+    "from_user", 
+    "from_domain", 
+    "ruri_user", 
+    "ruri_domain", 
+    "duration", 
+    "cdr_stop", 
+    "uuid"
+  ]
+}

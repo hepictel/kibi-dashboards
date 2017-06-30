@@ -1,0 +1,10 @@
+{
+  "visState": "{\"title\":\"PCAP: User-Agent Distribution\",\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"yAxis\":{}},\"aggs\":[{\"id\":\"3\",\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"2\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"4\",\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"uac.raw\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"2\"}}],\"listeners\":{}}", 
+  "description": "", 
+  "title": "PCAP: User-Agent Distribution", 
+  "uiStateJSON": "{}", 
+  "version": 1, 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"index\":\"pcapture_*-*\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"_type:statistics_useragents_registrations\"}},\"filter\":[]}"
+  }
+}

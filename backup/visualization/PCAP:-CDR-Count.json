@@ -1,0 +1,11 @@
+{
+  "visState": "{\"title\":\"PCAP: CDR Count\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":\"39\"},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"CDRs\"}}],\"listeners\":{}}", 
+  "description": "", 
+  "title": "PCAP: CDR Count", 
+  "uiStateJSON": "{}", 
+  "version": 1, 
+  "savedSearchId": "PCAP-CDRs", 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"filter\":[]}"
+  }
+}

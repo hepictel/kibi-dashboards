@@ -1,0 +1,10 @@
+{
+  "visState": "{\"title\":\"PCAP2: Cost Lookup\",\"type\":\"kibiqueryviewervis\",\"params\":{\"queryDefinitions\":[{\"open\":true,\"templateVars\":{\"label\":\"Prices\"},\"queryId\":\"Prices\",\"templateId\":\"kibi-table-handlebars\",\"_label\":\"Prices\"}]},\"aggs\":[],\"listeners\":{},\"version\":2}", 
+  "description": "", 
+  "title": "PCAP2: Cost Lookup", 
+  "uiStateJSON": "{}", 
+  "version": 1, 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+  }
+}

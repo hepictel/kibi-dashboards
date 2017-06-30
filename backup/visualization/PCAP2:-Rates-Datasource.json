@@ -1,0 +1,10 @@
+{
+  "visState": "{\"title\":\"PCAP2: Rates Datasource\",\"type\":\"kibiqueryviewervis\",\"params\":{\"queryDefinitions\":[{\"open\":true,\"templateVars\":{\"label\":\"Rates\"},\"queryId\":\"Rate-Query\",\"templateId\":\"kibi-table-jade\",\"_label\":\"Rates\"}]},\"aggs\":[],\"listeners\":{},\"version\":2}", 
+  "description": "", 
+  "title": "PCAP2: Rates Datasource", 
+  "uiStateJSON": "{}", 
+  "version": 1, 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+  }
+}

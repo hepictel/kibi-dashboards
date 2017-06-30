@@ -1,0 +1,11 @@
+{
+  "visState": "{\"title\":\"PCAP2: CDR Cost Metrics\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":\"36\"},\"aggs\":[{\"id\":\"1\",\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"d_total_cost\",\"customLabel\":\"Total CDR Cost\"}},{\"id\":\"2\",\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"d_total_cost\",\"customLabel\":\"Highest Rated CDR\"}},{\"id\":\"3\",\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"d_total_cost\",\"customLabel\":\"Avg. CDR Cost\"}}],\"listeners\":{}}", 
+  "description": "", 
+  "title": "PCAP2: CDR Cost Metrics", 
+  "uiStateJSON": "{}", 
+  "version": 1, 
+  "savedSearchId": "PCAP-CDRs", 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"filter\":[]}"
+  }
+}

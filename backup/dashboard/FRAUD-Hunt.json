@@ -1,0 +1,14 @@
+{
+  "hits": 0, 
+  "timeRestore": false, 
+  "description": "", 
+  "title": "FRAUD Hunt", 
+  "uiStateJSON": "{}", 
+  "panelsJSON": "[{\"col\":1,\"id\":\"PCAP2:-Cost-per-Destination-in-Range\",\"panelIndex\":2,\"row\":1,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"PCAP2:-Top-CALLER-by-CDR-Cost\",\"panelIndex\":3,\"row\":4,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"id\":\"PCAP2:-Top-DESTINATION-RATE-by-CDR-Cost\",\"type\":\"visualization\",\"panelIndex\":4,\"size_x\":6,\"size_y\":4,\"col\":7,\"row\":4}]", 
+  "optionsJSON": "{\"darkTheme\":false}", 
+  "version": 1, 
+  "savedSearchId": "PCAP-CDRs", 
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+  }
+}
